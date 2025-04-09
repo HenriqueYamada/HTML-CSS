@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) {
+    menu li{
+        display: inline-block;
+        background-color: rgb(95, 95, 95);
+        padding: 10px;
+    }
+    
+    li:hover{
+        background-color: rgb(128, 128, 128);
+    }
+    
+    li a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    main{
+        margin: 20px auto;
+        width: 525px;
+    }
+}
