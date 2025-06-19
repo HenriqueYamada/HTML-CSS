@@ -15,25 +15,21 @@ header{
     padding: 20px;
 }
 
-h1{
-    margin: 15px 0px;
-    line-height: 1.1em;
-}
-
-h2{
-    margin: 15px 0px 10px 0px;
-}
-
 p{
     text-align: justify;
-    margin: 10px 0px;
 }
 
-/*---Flex-Content---*/
+header p{
+    margin-top: 15px;
+}
+
+section p{
+    margin-top: 10px;
+}
 
 .flex-content{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     background-color: rgb(156, 156, 156);
     padding: 20px;
 }
@@ -46,6 +42,8 @@ p{
 .text-media{
     display: flex;
     flex-flow: row wrap;
+
+    margin-top: 10px;
 }
 
 .text{
@@ -53,24 +51,22 @@ p{
 }
 
 .media{
+    padding: 10px 0px;
     flex: 1 1 500px;
 }
 
-img, iframe{
+img{
     display: block;
     margin: auto;
-}
-
-img{
     width: 300px;
+    padding-bottom: 10px;
 }
 
 iframe{
+    display: block;
+    margin: auto;
     width: 90%;
-    padding: 10px;
 }
-
-/*---Normal---*/
 
 .normal{
     padding: 20px;
